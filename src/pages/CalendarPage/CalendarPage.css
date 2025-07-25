@@ -1,0 +1,38 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 5px;
+}
+.rbc-month-row {
+  min-height: 120px;
+  page-break-inside: avoid;
+}
+.rbc-day-bg, .rbc-date-cell, .rbc-day-slot {
+  min-height: 100%;
+}
+.calendar-print-title {
+  display: none;
+}
+
+@media print {
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+
+  #calendar-body {
+    width: 100%;
+    height: 100%;
+  } 
+
+  #button-group {
+    display: none !important;
+  }
+  /* .calendar-print-title {
+    display: flex !important;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 12px;
+  } */
+}

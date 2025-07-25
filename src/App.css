@@ -1,0 +1,25 @@
+.rbc-month-view {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.rbc-month-row {
+  flex: 1;
+  min-height: 120px;
+}
+.print-only {
+  display: none !important;
+}
+.rbc-day-bg.rbc-today {
+  background-color: inherit !important;
+}
+
+
+@media print {
+
+  .rbc-toolbar {
+    display: none !important;
+  }
+
+}
