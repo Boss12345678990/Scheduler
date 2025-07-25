@@ -3,7 +3,8 @@
 A web-based scheduling system designed for a dental clinic to assign staff (Dental Assistants and Front Desk) to shifts (Morning, Afternoon, Evening) on a calendar view. Built to simplify and visualize the clinic's daily workforce planning.
 
 ## Demos
-<img src="" alt="Scheduler demo" width="700" />
+<img src="./src/assets/emloyee_setup_demo.gif" alt="Setup_demo" width="700" />
+<img src="./src/assets/schedule_demo.gif" alt="Schedule_demo" width="700" />
 
 ## Features
 
