@@ -149,7 +149,7 @@ const CalendarPage = () => {
   return (
     <>
     <div id="calendar-print-title" style={{ display: "none" }}></div>
-    <div id='calendar-container' style={{ width:"100%", height:"100vh" }}>
+    <div id='calendar-container' style={{ width:"1900px", height:"940px" }}>
       <Calendar
         id='calendar-body'
         localizer={localizer}
@@ -280,7 +280,7 @@ const CalendarPage = () => {
             </Button>
           </div>
       </Dialog>
-      <div id="button-group">
+      <div id="button-group" style={{  display:"flex", gap: 8 }}>
         <Button
           variant="outlined"
           onClick={() => {
@@ -319,14 +319,14 @@ const CalendarPage = () => {
               });
           }}
         >
-          列印排班表
+          列印排班表 / Print
         </Button>
 
         <Button variant="outlined" onClick={() => navigate('/')}>
-          編輯員工
+          編輯員工 / Edit Employees
         </Button>
         <Button variant="contained" onClick={handleGetSummary} disabled={loading}>
-          {loading ? "總結中…" : "總結工作資訊"}
+          {loading ? "總結中…" : "總結工作資訊 /	Generate Work Summary "}
         </Button>
       </div>
     </div>
