@@ -2,15 +2,20 @@
 
 A web-based scheduling system designed for a dental clinic to assign staff (Dental Assistants and Front Desk) to shifts (Morning, Afternoon, Evening) on a calendar view. Built to simplify and visualize the clinic's daily workforce planning.
 
+## Demos
+<img src="" alt="Scheduler demo" width="700" />
+
 ## Features
 
-- Interactive monthly calendar (with printing support)
+- Interactive monthly calendar with printing support
 - Employee setup page for adding/removing staff
 - Smart validation:
   - Warns if no dental assistants are scheduled
   - Enforces at least 2 assistants for surgery shifts
-- Local storage persistence (no backend required)
-- Built with React, Vite, MUI, dayjs, and `react-big-calendar`
+- Local storage persistence
+- **OpenAI API integration**:
+  - Summarizes monthly employee work hours
+  - Lists closed days and highlights staff who reached 160 hour
 
 ## Technologies Used
 
@@ -19,7 +24,6 @@ A web-based scheduling system designed for a dental clinic to assign staff (Dent
 - **MUI (Material UI)** – design system for modern UI
 - **dayjs** – lightweight date library
 - **react-big-calendar** – calendar component
-- **uuid** – unique IDs for employees
 - **localStorage** – persist schedule and employee data
 
 ## How to Run Locally
