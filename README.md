@@ -21,29 +21,10 @@ A web-based scheduling system designed for a dental clinic to assign staff (Dent
 ## Technologies Used
 
 - **React** – component-based UI
-- **Vite** – fast build tool
-- **MUI (Material UI)** – design system for modern UI
-- **dayjs** – lightweight date library
+- **Material UI** – design system for modern UI
 - **react-big-calendar** – calendar component
 - **localStorage** – persist schedule and employee data
-
-## How to Run Locally
-
-1. Clone the repo:
-
-```bash
-git clone https://github.com/YOUR_USERNAME/dental-clinic-scheduler.git
-cd dental-clinic-scheduler
-```
-Then install dependencies:
-```bash
-npm install
-```
-Start the development server:
-```bash
-npm run dev
-```
-Visit http://localhost:5173
+- **OpenAI API** – for AI-generated shift summaries
 
 ## Motivation
 This scheduler was built to help manage staff assignments at my mom's dental clinic. It aims to reduce miscommunication, ensure surgery readiness, and provide a printable daily view of assignments.
